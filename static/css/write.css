@@ -1,0 +1,77 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    letter-spacing: -0.2px;
+}
+
+.custom-nav {
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #ffffff;
+}
+
+.brand-name {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.form-label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #666666;
+    letter-spacing: 1px;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    border: 1px solid #eaeaea;
+    border-radius: 0;
+    padding: 0.75rem 0;
+    color: #1a1a1a;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: transparent;
+    transition: border-color 0.2s ease;
+}
+
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #1a1a1a;
+    background-color: transparent;
+}
+
+.title-input {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.btn-publish {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    border: 1px solid #1a1a1a;
+    border-radius: 0;
+    padding: 0.6rem 2rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.btn-publish:hover {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+.btn-cancel {
+    color: #666666;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.btn-cancel:hover {
+    color: #1a1a1a;
+}
