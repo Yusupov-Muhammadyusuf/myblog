@@ -1,0 +1,85 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #212529;
+    background-color: #ffffff;
+}
+
+.meta-text {
+    font-size: 0.85rem;
+    color: #6c757d;
+    letter-spacing: 0.5px;
+}
+
+.edit-title-input {
+    font-size: 2.25rem;
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid #dee2e6;
+    border-radius: 0;
+    padding-left: 0;
+    padding-right: 0;
+    color: #212529;
+}
+
+.edit-title-input:focus {
+    box-shadow: none;
+    border-bottom-color: #212529;
+}
+
+.edit-content-input {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #333333;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 15px;
+    resize: vertical;
+}
+
+.edit-content-input:focus {
+    box-shadow: none;
+    border-color: #212529;
+}
+
+.btn-save {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #212529;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #212529;
+    padding: 2px 0;
+    border-radius: 0;
+    transition: all 0.2s ease;
+}
+
+.btn-save:hover, .btn-save:focus {
+    color: #6c757d;
+    border-bottom-color: #6c757d;
+}
+
+.btn-cancel {
+    font-size: 1.1rem;
+    color: #6c757d;
+    background: none;
+    border: none;
+    padding: 2px 0;
+    transition: color 0.2s ease;
+}
+
+.btn-cancel:hover {
+    color: #0d6efd;
+}
+
+.btn-delete {
+    font-size: 1.1rem;
+    color: #dc3545;
+    background: none;
+    border: none;
+    padding: 2px 0;
+    transition: color 0.2s ease;
+}
+
+.btn-delete:hover {
+    color: #a71d2a;
+}
