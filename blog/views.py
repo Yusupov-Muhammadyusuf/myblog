@@ -4,18 +4,6 @@ from django.contrib.auth import get_user_model
 from .models import Post
 from .forms import PostForm
 
-def create_my_superuser(requst):
-    User = get_user_model()
-    username = "Muhammadyusuf"
-    email = "muhammadyusuf.yusupov201@gmail.com"
-    password = "mFYyus20103"
-
-    if not User.objects.filter(username=username).exists():
-        User.objects.create_superuser(username=username, email=email, password=password)
-        return HttpResponse("Superuser successfully created!")
-    else:
-        return HttpResponse("This superuser already exists.")
-
 def blog_list(request):
     posts = Post.objects.all().order_by('-created_at')
     categories = Post.objects.values_list('category', flat=True).distinct()
