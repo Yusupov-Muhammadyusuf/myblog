@@ -2,5 +2,5 @@
 This is my official personal blog, built to share tech news, development milestones, and project insights. All updates and articles will be posted here regularly.
 
 ## Recent posts
-* [Hyper is currently on GitHub!](https://yusupov.onrender.com/post/3)
+* [Hyper is now open source!](https://yusupov.onrender.com/post/3)
 * [A new generation interpreter is in the making...](https://yusupov.onrender.com/post/2)
